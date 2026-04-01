@@ -1,1 +1,8 @@
+fastapi
 uvicorn[standard]
+streamlit
+scikit-learn
+numpy
+joblib
+requests
+pydantic
