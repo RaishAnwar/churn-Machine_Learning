@@ -19,7 +19,7 @@ if st.button("Predict"):
     }
 
     try:
-        res = requests.post("http://127.0.0.1:8000/predict", json=data)
+        res = requests.post("https://churn-machine-learning.onrender.com/predict", json=data)
 
         if res.status_code == 200:
             result = res.json()
